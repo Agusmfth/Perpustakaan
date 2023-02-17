@@ -14,4 +14,6 @@ class Auth extends CI_Controller
         $this->load->view('auth/register');
         $this->load->view('templates/footer_auth');
     }
+
+    public function logout()
 }
